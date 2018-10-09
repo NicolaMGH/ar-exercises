@@ -8,7 +8,7 @@ require_relative './exercise_5'
 puts "Exercise 6"
 puts "----------"
 
-# Your code goes here ...
+# Your code goes here ...#
 
 class Employee < ActiveRecord::Base
   belongs_to :store

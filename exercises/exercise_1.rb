@@ -16,7 +16,7 @@ class Store < ActiveRecord::Base
 
   def apparel_check
     if womens_apparel == false && mens_apparel == false
-      error.add("Must contain mens and/or womans apparel.")
+      errors.add("Store must contain mens and/or womans apparel. Currently both mens_apparel and womens_apparel is false.")
     end
   end
 end
