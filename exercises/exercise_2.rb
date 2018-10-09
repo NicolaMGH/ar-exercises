@@ -12,4 +12,5 @@ puts @store1.name
 @store2 = Store.find_by(id: 2)
 puts @store2.name
 
+
 @store1.update(name: 'Oldnavy')
